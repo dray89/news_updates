@@ -30,3 +30,4 @@ class News:
         Client.close()
         soup_page=soup(xml_page,"xml")
         self.news_list=soup_page.findAll("item")
+        

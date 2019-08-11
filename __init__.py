@@ -10,4 +10,3 @@ from newspaper import Article, fulltext
 from GoogleNews import GoogleNews
 import pandas as pd
 import traceback
-import news_sources
