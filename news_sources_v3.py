@@ -19,7 +19,7 @@ from urllib.request import urlopen
 class News:
     def __init__(self, searchterm):
         self.term = searchterm
-        self.url= "https://news.google.com/rss/search?q=" + searchterm + "&hl=en-US&gl=US&ceid=US%3Aen"
+        self.url= "https://news.google.com/rss/search?q=" + searchterm + "&hl=en-CA&gl=CA&ceid=CA%3Aen"
         self.links = set()
         self.art_list = []
         self.GoogleSearch()
