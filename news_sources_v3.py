@@ -4,13 +4,6 @@ Created on Sat Jul 13 15:51:42 2019
 ''' sends news updates '''
 @author: rayde
 
-call using:
-
-a = ticker_df(tickerlist)
-a.objects[0].title
-a.objects[0].keywords
-a.objects[0].summary
-
 """
 from newspaper import Article
 from bs4 import BeautifulSoup as soup
