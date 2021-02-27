@@ -29,8 +29,9 @@ class News:
         self.url= "https://news.google.com/rss/search?q=" + searchterm + "&hl=en-CA&gl=CA&ceid=CA%3Aen"
         self.links = set()
         self.art_list = []
-        self.GoogleSearch()
         self.number = number
+        self.GoogleSearch()
+        
 
     def GoogleSearch(self):
         Client=urlopen(self.url)
